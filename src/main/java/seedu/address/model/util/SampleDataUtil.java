@@ -18,22 +18,22 @@ import seedu.address.model.tag.Tag;
 public class SampleDataUtil {
     public static Bug[] getSamplePersons() {
         return new Bug[] {
-            new Bug(new Name("Alex Yeoh"), new State("alexyeoh@example.com"),
+            new Bug(new Name("Alex Yeoh"), new State("done"),
                 new Description("Blk 30 Geylang Street 29, #06-40"),
                 getTagSet("friends")),
-            new Bug(new Name("Bernice Yu"), new State("berniceyu@example.com"),
+            new Bug(new Name("Bernice Yu"), new State("done"),
                 new Description("Blk 30 Lorong 3 Serangoon Gardens, #07-18"),
                 getTagSet("colleagues", "friends")),
-            new Bug(new Name("Charlotte Oliveiro"), new State("charlotte@example.com"),
+            new Bug(new Name("Charlotte Oliveiro"), new State("done"),
                 new Description("Blk 11 Ang Mo Kio Street 74, #11-04"),
                 getTagSet("neighbours")),
-            new Bug(new Name("David Li"), new State("lidavid@example.com"),
+            new Bug(new Name("David Li"), new State("done"),
                 new Description("Blk 436 Serangoon Gardens Street 26, #16-43"),
                 getTagSet("family")),
-            new Bug(new Name("Irfan Ibrahim"), new State("irfan@example.com"),
+            new Bug(new Name("Irfan Ibrahim"), new State("done"),
                 new Description("Blk 47 Tampines Street 20, #17-35"),
                 getTagSet("classmates")),
-            new Bug(new Name("Roy Balakrishnan"), new State("royb@example.com"),
+            new Bug(new Name("Roy Balakrishnan"), new State("done"),
                 new Description("Blk 45 Aljunied Street 85, #11-31"),
                 getTagSet("colleagues"))
         };
